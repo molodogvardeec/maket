@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: #118da8;
+  width: 178px;
+  height: 51px;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  background-color: #191919;
+}
+body header {
+  padding-top: 50px;
+}
+body header .header_lists {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  width: 300px;
+  justify-content: space-between;
+}
+body main {
+  padding-top: 50px;
+}
+body main .left_content {
+  position: relative;
+}
+body main .left_content .arrow {
+  position: absolute;
+  left: -20px;
+  top: -22px;
+}
+body main .right_content h1 {
+  width: 526px;
+  color: white;
+  font-weight: 400;
+  font-size: 70px;
+  letter-spacing: 7px;
+}
+body main .right_content .right_content_info {
+  width: 289px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body main .right_content .right_content_info p {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+body main .content_btn {
+  padding-top: 40px;
+}
+body main .content_btn h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 64px;
+  letter-spacing: 2.88;
+}
+body main .content_cards .card {
+  margin-top: 40px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  border-radius: 32px;
+  height: 545px;
+}
+body main .content_cards .card .card_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 770px;
+}
+body main .content_cards .card .card_info span {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: white;
+  background-color: #191919;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+body main .content_cards .card .card_info h2 {
+  color: #118da8;
+}
+body main .content_cards .card .card_info h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: 400;
+}
+body main .content_cards .card .card_info p {
+  color: white;
+}
+body main .info_engineer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+body main .info_engineer .info_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  width: 556px;
+}
+body main .info_engineer .info_text button {
+  background-color: #118da8;
+  width: 112px;
+  height: 112px;
+  border-radius: 400px;
+  border: none;
+}
+body main .info_engineer .info_text span {
+  color: #118da8;
+}
+body main .info_engineer .info_text h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 65px;
+  letter-spacing: 2.88px;
+}
+body main .info_engineer .info_text p {
+  color: white;
+}
+body main .card_for_sub {
+  margin-top: 100px;
+  padding: 50px;
+  background-color: #000000;
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+body main .card_for_sub .card_for_sub_text {
+  width: 431px;
+}
+body main .card_for_sub .card_for_sub_text p {
+  color: #118da8;
+  font-size: 18px;
+}
+body main .card_for_sub .card_for_sub_text h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 400;
+}
+body main .card_for_sub .input_text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+body main .card_for_sub .input_text input {
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 6px;
+  color: white;
+  background-color: #191919;
+  width: 522px;
+  height: 82px;
+  border: none;
+}
+body main .card_for_sub .input_text button {
+  background-color: #118da8;
+  color: white;
+  height: 48px;
+  width: 87px;
+  border: none;
+  border-radius: 6px;
+}
+body main .grid {
+  display: grid;
+  grid-template-columns: 410px 410px 410px;
+  margin-top: 100px;
+  gap: 30px;
+}
+body main .grid .cards_comment {
+  padding: 50px;
+  background-color: #000000;
+  border-radius: 32px;
+}
+body main .grid .cards_comment .card_comment {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body main .grid .cards_comment .card_comment h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  width: 313px;
+}
+body main .grid .cards_comment .card_comment p {
+  color: white;
+}
+body footer {
+  margin-top: 100px;
+}
+body footer .footer_links {
+  display: flex;
+  gap: 70px;
+}
+body footer .footer_links a {
+  text-decoration: none;
+  color: white;
+}
+body footer .footer_links .footer_left_col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body footer .footer_links .footer_right_col {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+body footer .footer_icons {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */
